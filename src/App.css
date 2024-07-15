@@ -8,7 +8,7 @@
   /* Asosiy konteyner */
   body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #716e06;
     color: #333;
     line-height: 1.6;
     display: flex;
@@ -22,19 +22,24 @@
     max-width: 1200px;
     width: 100%;
     padding: 20px;
+    background-color: aliceblue;
   }
   
   /* Admin Dashboard container */
   .admin-dashboard {
     padding: 20px;
-    background-color: #fff;
+    border: 1px solid red;
+   width: 500px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  
   }
   
   .admin-dashboard h2 {
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 90px;
+  
+background-color: aliceblue;
     font-size: 24px;
   }
   
@@ -55,7 +60,7 @@
   }
   
   .product button, .cart-item button {
-    background-color: #007bff;
+    background-color: #4c9df4;
     color: #fff;
     border: none;
     padding: 10px 15px;
@@ -65,7 +70,7 @@
   }
   
   .product button:hover, .cart-item button:hover {
-    background-color: #0056b3;
+    background-color: #2188f7;
   }
   
   /* Cart container */
